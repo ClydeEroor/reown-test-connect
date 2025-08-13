@@ -3,7 +3,7 @@ import {useAppKit, useAppKitAccount } from '@reown/appkit/react'
 
 function App() {
     const { isConnected, address } = useAppKitAccount();
-    const { open, close } = useAppKit();
+    const { open } = useAppKit();
 
 
 
